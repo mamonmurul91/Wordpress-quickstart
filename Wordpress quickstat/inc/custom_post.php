@@ -12,10 +12,9 @@ function custom_post() {
 			'has_archive' => true,
 		)
 	);
-add_action( 'init', 'custom_post' );
 
-	
 }
+add_action( 'init', 'custom_post' );
 function custom_post_taxonomy() {
 	register_taxonomy(
 		'service', //name of taxonomy 
